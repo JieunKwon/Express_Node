@@ -1,4 +1,4 @@
-# Node JS and Firebase
+# Express and Node JS
 
 > Install express
 
