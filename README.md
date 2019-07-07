@@ -33,7 +33,7 @@ routes/index.js
     var express = require('express');
     var router = express.Router();
 
-    // GET index page  
+    // GET index page with title 
     router.get('/', function(req, res, next) {
       res.render('index', { title: 'Express Index Page Test' });
     });
