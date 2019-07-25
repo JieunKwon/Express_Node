@@ -1,6 +1,6 @@
 # Express and Node JS
 
-> Install express
+> Install Express
 
     npm install express -g
 
@@ -11,7 +11,7 @@
     
 > View engine setup and use it
 
-app.js 
+- app.js 
 
 
     var express = require('express');
@@ -28,7 +28,7 @@ app.js
     
     ...
     
-routes/index.js
+- routes/index.js
 
     var express = require('express');
     var router = express.Router();
@@ -40,7 +40,7 @@ routes/index.js
  
     module.exports = router;
 
-views/index.ejs
+- views/index.ejs
 
 ** Express EJS Extend : EJS is a simple templating language that lets you generate HTML markup with plain JavaScript
 
