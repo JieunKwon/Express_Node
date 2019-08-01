@@ -23,6 +23,7 @@
     ...
     
     // setup views and EJS extension 
+    
     app.set('views', path.join(__dirname, 'views'));
     app.set('view engine', 'ejs');
     
